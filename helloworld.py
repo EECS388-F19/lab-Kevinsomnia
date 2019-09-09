@@ -1,8 +1,8 @@
-import random
+from random import randint
 
 print("Kevin Tong")
-a = random.randint(1, 100)
-b = random.randint(1, 100);
+a = randint(1, 100)
+b = randint(1, 100)
 sum = a + b
 avg = sum / 2.0
 print(a)
